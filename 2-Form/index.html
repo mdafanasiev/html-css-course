@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Регистрация</title>
+    </head>
+    <body>
+        <main>
+            <form action="/mainpage" method="post">
+                <h1>Регистрация</h1>
+                <p>Уже есть аккаунт? <a href="">Войти</a></p>
+
+                <div>
+                    <input
+                        type="text"
+                        name="company_name"
+                        id="company_name"
+                        placeholder="Моя компания"
+                        required
+                    />
+                    <div>
+                        <input
+                            type="text"
+                            name="firstname"
+                            id="firstname"
+                            placeholder="Имя"
+                            required
+                        />
+                        <input
+                            type="text"
+                            name="lastname"
+                            id="lastname"
+                            placeholder="Фамилия"
+                            required
+                        />
+                    </div>
+                    <input
+                        type="email"
+                        name="email"
+                        id="email"
+                        placeholder="email"
+                    />
+                </div>
+
+                <button type="submit">Зарегистрироваться</button>
+
+                <div>
+                    <input
+                        type="checkbox"
+                        name="useterms"
+                        id="useterms"
+                        value=""
+                    />
+                    <label for="useterms"
+                        >Я прочитал и принимаю
+                        <a href="">условия использования</a></label
+                    >
+                </div>
+            </form>
+        </main>
+    </body>
+</html>
