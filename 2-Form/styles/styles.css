@@ -1,0 +1,52 @@
+body {
+    background-color: rgba(243, 148, 148, 1);
+}
+
+form {
+    font-family: "Open Sans", sans-serif;
+    background-color: rgba(255, 254, 254, 1);
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 49.03px;
+    color: rgba(51, 51, 51, 1);
+}
+
+p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.51px;
+    color: rgba(102, 102, 102, 1);
+}
+
+a {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.51px;
+    color: rgba(8, 159, 224, 1);
+}
+
+input {
+    background-color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    font-style: italic;
+    line-height: 21.79px;
+    color: rgba(51, 51, 51, 1);
+}
+
+button {
+    background-color: rgba(8, 159, 224, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24.51px;
+}
+
+label {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19.07px;
+    color: rgba(102, 102, 102, 1);
+}
