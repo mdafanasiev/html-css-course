@@ -1,0 +1,59 @@
+body {
+    background-color: rgba(55, 65, 81, 1);
+}
+
+main {
+    color: rgba(255, 255, 255, 1);
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+    color: rgba(255, 255, 255, 1);
+}
+
+input[type="search"] {
+    background-color: #1f293799;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 18.75px;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+.addinfo {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.41px;
+    opacity: 60%;
+    color: rgba(255, 255, 255, 1);
+}
+
+.author {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.bigparagraph {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 32px;
+}
+
+.smallparagraph,
+.textlink {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(255, 255, 255, 1);
+}
