@@ -1,20 +1,32 @@
 body {
-    background-color: rgba(55, 65, 81, 1);
+    background: linear-gradient(180deg, rgb(55, 65, 81), rgb(17, 24, 39) 100%);
+    margin: 0;
 }
 
 main {
     color: rgba(255, 255, 255, 1);
+    margin-bottom: 103px;
+}
+header {
+    padding: 72px 180px;
+    margin-bottom: 80px;
+}
+header a {
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
 }
 
 nav ul {
     list-style-type: none;
 }
 
+nav ul li {
+    margin-bottom: 50px;
+}
 nav a {
     font-weight: 400;
     font-size: 16px;
     line-height: 18.75px;
-    color: rgba(255, 255, 255, 1);
 }
 
 input[type="search"] {
@@ -22,14 +34,33 @@ input[type="search"] {
     font-weight: 400;
     font-size: 16px;
     line-height: 18.75px;
+    padding: 15px;
+    border-radius: 100px;
+    border: 1px solid #1f293799;
+    width: 224px;
+    height: 40px;
 }
 
 h1 {
     font-weight: 400;
     font-size: 24px;
     line-height: 38px;
+    margin: 0px 458px 30px;
+    width: 525px;
+    height: 76px;
+    text-align: center;
+}
+footer {
+    margin: auto 606px 77px 606px;
 }
 
+.blognametime {
+    margin: auto 630px 14px;
+}
+
+.authorinfo {
+    margin: auto 586px 28px 640px;
+}
 .addinfo {
     font-weight: 400;
     font-size: 14px;
@@ -44,10 +75,25 @@ h1 {
     line-height: 28px;
 }
 
+#rectangle {
+    margin: auto 272px 69px 272px;
+    border-radius: 5px;
+    width: 896px;
+    height: 594px;
+}
+
 .bigparagraph {
     font-weight: 400;
     font-size: 20px;
     line-height: 32px;
+    margin-left: 366px;
+    margin-right: 366px;
+    width: 708px;
+}
+.smallparagraph {
+    margin-left: 366px;
+    margin-right: 366px;
+    width: 708px;
 }
 
 .smallparagraph,
