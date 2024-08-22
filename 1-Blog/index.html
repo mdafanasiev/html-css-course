@@ -8,7 +8,7 @@
     </head>
     <body>
         <header>
-            <a href="#"><span>В</span>Мой блог</a>
+            <a href="#" id="myblog"><span>В</span>Мой блог</a>
             <nav>
                 <ul>
                     <li><a href="#">HTML и CSS</a></li>
@@ -19,18 +19,18 @@
             <input type="search" placeholder="Поиск" />
         </header>
         <main>
-            <span class="addinfo blognametime"
-                >FRONTEND &#x2022; <time>12 мая 2024</time>
-            </span>
             <article>
+                <div class="bloginfo">
+                    FRONTEND &#x2022; <time>12 мая 2024</time>
+                </div>
                 <h1>
                     Теория цвета - Как цвет влияет на поведение потребителей
                 </h1>
                 <div class="authorinfo">
                     <img src="./images/ArticleAuthor.png" alt="Автор статьи" />
                     <aside>
-                        <div class="author">Наталья Васильева</div>
-                        <div class="addinfo">Разработчик</div>
+                        <p class="authorname">Наталья Васильева</p>
+                        <p class="authorjob">Разработчик</p>
                     </aside>
                 </div>
                 <img
@@ -62,7 +62,6 @@
                     <p class="smallparagraph">
                         В исследовании «Влияние цвета на маркетинг» (<a
                             href="https://www.researchgate.net/publication/235320162_Impact_of_color_on_marketing"
-                            class="textlink"
                             >Impact of color on marketing</a
                         >) говорится, что использование разных цветов может
                         существенно влиять на настроение и поведение
@@ -74,11 +73,10 @@
                 </section>
             </article>
         </main>
-
         <footer>
-            <span class="addinfo"
-                >Все права защищены &copy; <time>2024</time></span
-            >
+            <div class="copyright">
+                Все права защищены &copy; <time>2024</time>
+            </div>
         </footer>
     </body>
 </html>
