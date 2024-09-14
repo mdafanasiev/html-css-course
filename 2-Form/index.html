@@ -10,23 +10,30 @@
         <main>
             <form action="/mainpage" method="post">
                 <h1>Регистрация</h1>
-                <p>Уже есть аккаунт? <a href="#">Войти</a></p>
+                <div class="hasaccount">
+                    <span class="hasaccount">
+                        Уже есть аккаунт? <a href="#">Войти</a>
+                    </span>
+                </div>
 
-                <div>
+                <div class="main-container">
                     <input
                         type="text"
                         name="username"
                         id="username"
                         placeholder="Имя пользователя"
                         required
+                        class="item enter-data"
                     />
-                    <div>
+
+                    <div class="user-info-container">
                         <input
                             type="text"
                             name="firstname"
                             id="firstname"
                             placeholder="Имя"
                             required
+                            class="item enter-data"
                         />
                         <input
                             type="text"
@@ -34,29 +41,35 @@
                             id="lastname"
                             placeholder="Фамилия"
                             required
+                            class="item enter-data"
                         />
                     </div>
+
                     <input
                         type="email"
                         name="email"
                         id="email"
                         placeholder="E-mail"
+                        class="item enter-data"
                     />
-                </div>
 
-                <button type="submit">Зарегистрироваться</button>
+                    <button type="submit" class="item">
+                        <span id="register-button">Зарегистрироваться</span>
+                    </button>
 
-                <div>
-                    <input
-                        type="checkbox"
-                        name="useterms"
-                        id="useterms"
-                        value=""
-                    />
-                    <label for="useterms"
-                        >Я прочитал и принимаю
-                        <a href="#">условия использования</a></label
-                    >
+                    <div>
+                        <input
+                            type="checkbox"
+                            name="useterms"
+                            id="useterms"
+                            value=""
+                            class="item"
+                        />
+                        <label for="useterms"
+                            >Я прочитал и принимаю
+                            <a href="#">Условия использования</a></label
+                        >
+                    </div>
                 </div>
             </form>
         </main>
