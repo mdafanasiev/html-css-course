@@ -1,5 +1,9 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
-    background: linear-gradient(180deg, rgb(55, 65, 81), rgb(17, 24, 39) 100%);
+    background: #111827;
     margin: 0;
     font-weight: 400;
     font-size: 16px;
@@ -19,16 +23,17 @@ body {
     line-height: 21.09px;
 }
 
-header {
+.header__wrapper {
     padding-top: 71px;
-    padding-left: 10%;
-    padding-right: 10%;
     display: flex;
     align-items: center;
     gap: 77px;
+    justify-content: center;
+    margin: 0 auto;
+}
+header {
     margin-bottom: 75px;
 }
-
 header a {
     color: #fafafa;
     text-decoration: none;
@@ -83,7 +88,9 @@ section {
 
 footer {
     margin: 0 auto;
+    background-color: (18, 25, 40, 1);
 }
+
 .main-logo {
     display: flex;
     gap: 11px;
@@ -130,6 +137,7 @@ footer {
 
 #rectangle {
     border-radius: 5px;
+    width: 100%;
 }
 
 .bigparagraph {
@@ -148,4 +156,8 @@ footer {
 .copyright {
     text-align: center;
     padding: 0 0 77px;
+}
+
+.upper-gradient {
+    background: linear-gradient(180deg, #374151 0%, #111827 100%);
 }
